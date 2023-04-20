@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confession</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <style>
+    .main-body{
+      background-image: url(/static/hell_skull_image.jpg);
+      background-size: cover;
+      /* opacity: 0.5; */
+    }
+
+    #button-style:hover{
+      color: black;
+      background-color: white;
+    }
+
+  .fire {
+  animation: animation 1s ease-in-out infinite alternate;
+  -moz-animation: animation 1s ease-in-out infinite alternate;
+  -webkit-animation: animation 1s ease-in-out infinite alternate;
+  -o-animation: animation 1s ease-in-out infinite alternate;
+}
+@keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-moz-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-webkit-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+@-o-keyframes animation
+{
+0% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #feec85,
+  -20px -20px 40px #ffae34,
+  20px -40px 50px #ec760c,
+  -20px -60px 60px #cd4606,
+  0 -80px 70px #973716,
+  10px -90px 80px #451b0e;}
+100% {text-shadow: 0 0 20px #fefcc9,
+  10px -10px 30px #fefcc9,
+  -20px -20px 40px #feec85,
+  22px -42px 60px #ffae34,
+  -22px -58px 50px #ec760c,
+  0 -82px 80px #cd4606,
+  10px -90px 80px  #973716;}
+}
+
+#h1 {
+  font-size: 2em;
+  font-family: 'Amethysta', serif;
+  text-align: center;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: .3em;
+  white-space:nowrap;
+  position: relative;
+  bottom: 150px;
+  left:50px;
+}
+
+.span {
+  color: #000;
+  font-family: 'Caesar Dressing', cursive;
+  font-size: 5em;
+  text-transform: lowercase;
+  vertical-align: middle;
+  letter-spacing: .2em;
+}
+
+.fire {
+  animation: animation 1s ease-in-out infinite alternate;
+  -moz-animation: animation 1s ease-in-out infinite alternate;
+  -webkit-animation: animation 1s ease-in-out infinite alternate;
+  -o-animation: animation 1s ease-in-out infinite alternate;
+}
+
+.burn {
+  animation: animation .65s ease-in-out infinite alternate;
+  -moz-animation: animation .65s ease-in-out infinite alternate;
+  -webkit-animation: animation .65s ease-in-out infinite alternate;
+  -o-animation: animation .65s ease-in-out infinite alternate;
+}
+
+#h1-welcome-to{
+  position: relative;
+  bottom:200px;
+  color: black;
+  font-size: 80px;
+  left: 50px;
+  font-family: zombie-font;
+}
+
+.description{
+  position: relative;
+  bottom:80px;
+  color: red;
+  font-family: zombie-font;
+  font-size: 45px;
+}
+
+#confession-box{
+  color: black;
+  font-size: 30px;
+  font-family: zombie-font;
+  font-weight: bolder;
+  position: relative;
+  bottom:10px;
+}
+
+#message{
+  opacity: 0.5;
+}
+
+@font-face {
+  font-family: zombie-font;
+  src: url(/static/zombie-holocaust-font/ZombieHolocaust-0aL4.ttf);
+}
+
+
+
+
+  </style>
+
+</head>
+
+
+<body>
+
+  <div>
+    <img src="/static/hell_skull_image.jpg" class="main-body"/>
+    <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+      style="background-color: rgba(0, 0, 0, 0.75)">
+      <div class="flex justify-center items-center h-full">
+        <div class="text-center text-white px-6 md:px-12" style="position: relative; top:80px;">
+          <link href='https://fonts.googleapis.com/css?family=Amethysta' rel='stylesheet' type='text/css'>
+          <link href='https://fonts.googleapis.com/css?family=Caesar+Dressing' rel='stylesheet' type='text/css'>
+          <h1 id="h1-welcome-to" class="fire span">Welcome To</h1>
+          <h1 id="h1"><span class="fire span">N</span><span class="burn span">A</span><span class="burn span">R</span><span class="fire span">A</span><span class="fire span">K</span><span class="fire span">A</span></h1>
+          <h3 class="description">Get Started to face the consequences of your sins in your after life.</h3>
+          
+          <div class="relative mb-4">
+            <form action="/" method="post" enctype="multipart/form-data">
+              <label for="message" id="confession-box" class="leading-7 text-sm text-gray-600 fire span">Confession</label>
+              <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+          </div>
+          
+          <button type="submit"
+          class="inline-block px-6 py-2.5 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
+          data-mdb-ripple="true" id="button-style" data-mdb-ripple-color="light" style="font-family: zombie-font; font-size: 40px; width:300px">
+          Submit
+        </button>
+      </form>
+      </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+</body>
+</html>
